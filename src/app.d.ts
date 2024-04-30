@@ -15,7 +15,8 @@ declare global {
     }
     // interface Error {}
     // interface Platform {}
+    // TODO: Something about env variables needs to be set here with Platform. Didn't really understand the instructions here on step 3 https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/#deploy-with-cloudflare-pages
   }
 }
 
-export {}
+export { }

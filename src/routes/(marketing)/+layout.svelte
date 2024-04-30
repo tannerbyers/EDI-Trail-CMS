@@ -2,16 +2,15 @@
   import "../../app.css"
 </script>
 
-<div class="navbar bg-base-100 container mx-auto">
+<div class="container mx-auto navbar bg-base-100">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">SaaS Starter</a>
+    <a class="text-xl normal-case btn btn-ghost" href="/">EDI TRAIL</a>
   </div>
   <div class="flex-none">
-    <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
+    <ul class="hidden px-1 text-lg font-bold menu menu-horizontal sm:flex">
       <li class="md:mx-4">
-        <a
-          href="https://github.com/CriticalMoments/CMSaasStarter"
-          class="border border-primary">★ us on Github</a
+        <a href="https://github.com/tannerbyers" class="border border-primary"
+          >★ us on Github</a
         >
       </li>
       <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -19,12 +18,12 @@
       <li class="md:mx-2"><a href="/account">Account</a></li>
     </ul>
     <div class="dropdown dropdown-end sm:hidden">
-      <!-- svelte-ignore a11y-label-has-associated-control -->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <!-- svelte-ignore a11y-label-has-associated-control -->
       <label tabindex="0" class="btn btn-ghost btn-circle">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
+          class="w-5 h-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -45,9 +44,8 @@
         <li><a href="/pricing">Pricing</a></li>
         <li><a href="/account">Account</a></li>
         <li>
-          <a
-            href="https://github.com/CriticalMoments/CMSaasStarter"
-            class="border border-primary">★ us on Github</a
+          <a href="https://github.com/tannerbyers" class="border border-primary"
+            >★ us on Github</a
           >
         </li>
       </ul>
@@ -64,31 +62,29 @@
 <div class="">
   <div class="border-t max-w-[1000px] mx-auto"></div>
   <footer
-    class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
+    class="p-10 text-base footer gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center"
   >
     <nav>
       <span class="footer-title opacity-80">Explore</span>
-      <a class="link link-hover mb-1" href="/">Overview</a>
-      <a class="link link-hover my-1" href="/pricing">Pricing</a>
-      <a class="link link-hover my-1" href="/blog">Blog</a>
-      <a class="link link-hover my-1" href="/contact_us">Contact Us</a>
+      <a class="mb-1 link link-hover" href="/">Overview</a>
+      <a class="my-1 link link-hover" href="/pricing">Pricing</a>
+      <a class="my-1 link link-hover" href="/blog">Blog</a>
+      <a class="my-1 link link-hover" href="/contact_us">Contact Us</a>
       <a
-        class="link link-hover my-1"
+        class="my-1 link link-hover"
         href="https://github.com/CriticalMoments/CMSaasStarter">Github</a
       >
     </nav>
     <aside>
-      <span class="footer-title opacity-80">Sponsor</span>
-      <a
-        class="link link-hover max-w-[260px]"
-        href="https://criticalmoments.io"
-      >
-        <img
+      <span class="footer-title opacity-80">EDI Trail</span>
+      <a class="link link-hover max-w-[260px]" href="https://editrail.com">
+        <!-- <img
           alt="Critical Moments Logo"
           src="/images/cm_logo.svg"
           class="w-[180px] mb-3 aspect-[420/154]"
-        />
-        Make mobile apps? Improve conversion rates and ratings with Critical Moments.
+        /> -->
+        An Open Source Modern EDI Platform for storing data at scale and minimal
+        costs.
       </a>
     </aside>
   </footer>

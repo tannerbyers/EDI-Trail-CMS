@@ -23,14 +23,14 @@
   <div class="drawer-content">
     <div class="navbar bg-base-100 lg:hidden">
       <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl" href="/">SaaS Starter</a>
+        <a class="text-xl normal-case btn btn-ghost" href="/">EDI Trail</a>
       </div>
       <div class="flex-none">
         <div class="dropdown dropdown-end">
           <label for="admin-drawer" class="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="w-5 h-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="container px-6 lg:px-12 py-3 lg:py-6">
+    <div class="container px-6 py-3 lg:px-12 lg:py-6">
       <slot />
     </div>
   </div>
@@ -53,14 +53,14 @@
   <div class="drawer-side">
     <label for="admin-drawer" class="drawer-overlay" />
     <ul
-      class="menu menu-lg p-4 w-80 min-h-full bg-base-100 lg:border-r text-primary"
+      class="min-h-full p-4 menu menu-lg w-80 bg-base-100 lg:border-r text-primary"
     >
       <li>
         <div
-          class="normal-case menu-title text-xl font-bold text-primary flex flex-row"
+          class="flex flex-row text-xl font-bold normal-case menu-title text-primary"
         >
-          <a href="/" class="grow">Saas Starter</a>
-          <label for="admin-drawer" class="lg:hidden ml-3"> &#x2715; </label>
+          <a href="/" class="grow">EDI Trail</a>
+          <label for="admin-drawer" class="ml-3 lg:hidden"> &#x2715; </label>
         </div>
       </li>
       <li>
@@ -71,7 +71,7 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
+            class="w-5 h-5"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -92,7 +92,7 @@
           on:click={closeDrawer}
         >
           <svg
-            class="h-5 w-5"
+            class="w-5 h-5"
             viewBox="0 0 24 24"
             stroke="none"
             fill="currentColor"
@@ -110,7 +110,7 @@
           class={adminSection === "settings" ? "active" : ""}
           on:click={closeDrawer}
         >
-          <svg class="h-5 w-5" viewBox="0 0 24 24" stroke="none" fill="none">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" stroke="none" fill="none">
             <g id="Interface / Settings">
               <g id="Vector">
                 <path
