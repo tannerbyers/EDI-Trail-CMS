@@ -1,4 +1,4 @@
-<p class="lead">A sample post</p>
+<p class="lead">How we built a blazingly fast open source custom EDI parser</p>
 
 <p>
   This is a sample blog post to demonstrate the blog engine. It shows some of
